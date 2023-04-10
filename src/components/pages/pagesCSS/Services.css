@@ -1,0 +1,57 @@
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 6px;
+  }
+  
+  .services .icon-box img {
+    float: left;
+    color: #d9232d;
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+  
+  .services .icon-box h4 {
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .icon-box h4 a {
+    color: #556270;
+    transition: 0.3s;
+  }
+  
+  .services .icon-box p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+  
+  .services .icon-box:hover h4 a {
+    color: #26a9ab;
+  }
+  .breadcrumbs {
+    /* margin-top: 73px; */
+    text-align: center;
+    background: #26a9ab;
+    padding: 30px 0;
+    color: #fff;
+  }
+  .breadcrumbs h2 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .breadcrumbs p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  

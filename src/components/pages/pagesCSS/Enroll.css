@@ -1,0 +1,46 @@
+
+.Enroll {
+  text-align: center;
+  background: #26a9ab;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.Enroll h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.Enroll p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+  
+button{
+  height: 50px;
+  width: 130px;
+  border: 0;
+  outline: none;
+  background-color: #26a9ab;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: #4ababb;
+}

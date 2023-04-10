@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.why-us .content {
+    padding: 30px;
+    background: #26a9ab;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .why-us .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  
+  .why-us .content p {
+    margin-bottom: 30px;
+  }
+  
+  .why-us .content .more-btn {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .why-us .content .more-btn i {
+    font-size: 14px;
+  }
+  
+  .why-us .content .more-btn:hover {
+    color: #26a9ab;
+    background: #fff;
+  }
+  
+  .why-us .icon-boxes .icon-box {
+    text-align: center;
+    background: #fff;
+    padding: 20px 35px;
+    width: 100%;
+    border: 1px solid #eef0ef;
+  }
+  
+  .why-us .icon-boxes .icon-box i {
+    font-size: 32px;
+    color: #26a9ab;
+    background: #ecf9f0;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  .why-us .icon-boxes .icon-box h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+  }
+  
+  .why-us .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: #848484;
+    text-justify: auto;
+  }
+  
