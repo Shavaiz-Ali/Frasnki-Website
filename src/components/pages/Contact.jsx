@@ -14,7 +14,7 @@ function Contact() {
     {/* <!-- End Breadcrumbs --> */}
     {/* <!-- ======= Contact Section ======= --> */}
     <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+      <div class="container">
 
         <div class="row mt-5">
           <div class="col-lg-4">

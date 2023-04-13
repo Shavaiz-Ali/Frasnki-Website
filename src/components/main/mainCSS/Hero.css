@@ -71,9 +71,11 @@
   }
   
   @media (max-width: 768px) {
-    #hero {
-      height: 100vh;
-    }
+    #hero {  
+      height: 60vh;
+      background-position: center;
+      background-repeat: repeat;
+  }
   
     #hero h1 {
       font-size: 28px;
@@ -81,7 +83,7 @@
     }
   
     #hero h2 {
-      font-size: 18px;
+      font-size: 16px;
       line-height: 24px;
     }
   }

@@ -340,31 +340,6 @@ section {
   color: #fff;
   text-decoration: none;
 }
-/* About2  */
-.breadcrumbs {
-  /* margin-top: 73px; */
-  text-align: center;
-  background: #26a9ab;
-  padding: 30px 0;
-  color: #fff;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 63px;
-  }
-}
-
-.breadcrumbs h2 {
-  font-size: 32px;
-  font-weight: 500;
-}
-
-.breadcrumbs p {
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

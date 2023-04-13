@@ -12,7 +12,7 @@ function About2() {
   return (
     <>
       {/* <!-- ======= Breadcrumbs ======= --> */}
-      <div className="breadcrumbs" data-aos="fade-down">
+      <div className="breadcrumbs">
         <div className="container">
           <h2>About Us</h2>
           <p>
@@ -29,14 +29,14 @@ function About2() {
       <About />
       {/* <!-- ======= Testimonials Section ======= --> */}
       <section id="testimonials" className="testimonials">
-        <div className="container" data-aos="fade-up">
+        <div className="container">
           <div className="section-title">
             <h2>Testimonials</h2>
             <p>What are they saying</p>
           </div>
           {
             <Swiper
-              slidesPerView={1}
+              slidesPerView={'auto'}
               spaceBetween={30}
               autoplay={{
                 delay: 2500,
@@ -46,6 +46,17 @@ function About2() {
                 clickable: true,
               }}
               navigation={true}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                  spaceBetween: 20
+                },
+          
+                1200: {
+                  slidesPerView: 2,
+                  spaceBetween: 20
+                }
+              }}
               modules={[Autoplay, Pagination, Navigation]}
               className="swiper-container"
             >

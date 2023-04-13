@@ -21,11 +21,11 @@ export default function Navbar(props) {
                   <li className="">
                     <NavLink to="/about">About</NavLink>
                   </li>
-              <li className="dropdown d-flex align-items-center">
-                    <NavLink to="/courses">
-                      <span>Skill Development</span> <i className="fas fa-angle-down"></i>
+              <li className="dropdown">
+                    <NavLink>
+                      Skill Development <i className="fas fa-angle-down"></i>
                     </NavLink>
-                <ul>
+                <ul className="navbar-dropdown">
                     <li>
                       <NavLink to="/web">Web Developemnt</NavLink>
                     </li>

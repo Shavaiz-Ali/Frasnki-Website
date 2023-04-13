@@ -228,9 +228,9 @@
     color: #37423b;
   }
   
-  .navbar-mobile a:hover,
+  .navbar-mobile NavLink:hover,
   .navbar-mobile .active,
-  .navbar-mobile li:hover>a {
+  .navbar-mobile li:hover>NavLink {
     color: #26a9ab;
   }
   
@@ -269,7 +269,10 @@
     color: #26a9ab;
   }
   
-  .navbar-mobile .dropdown>.dropdown-active {
+  .navbar-dropdown .dropdown>.dropdown-active {
     display: block;
+  }
+  .navbar-desktop{
+    display: none;
   }
   
