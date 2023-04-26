@@ -8,11 +8,11 @@ export default function Navbar(props) {
       {/* <!-- ======= Header ======= -->  */}
       <header id="header" className="">
         <div className="container-sm d-flex align-items-center justify-content-between">
-          <div className="logo">
-            <NavLink>
-              <img src={franskilogo} alt={franskilogo} to='/'/>
-            </NavLink>
-          </div>
+            <div className="logo">
+              <NavLink>
+                <img src={franskilogo} alt={franskilogo} to='/'/>
+              </NavLink>
+            </div>
           <nav id="navbar" className="d-flex navbar">
             <ul className="navbar-items">
                   <li className="">
@@ -21,7 +21,10 @@ export default function Navbar(props) {
                   <li className="">
                     <NavLink to="/about">About</NavLink>
                   </li>
-              <li className="dropdown">
+                  <li className="">
+                    <NavLink to="/team">Our Team</NavLink>
+                  </li>
+              {/* <li className="dropdown">
                     <NavLink>
                       Skill Development <i className="fas fa-angle-down"></i>
                     </NavLink>
@@ -45,7 +48,7 @@ export default function Navbar(props) {
                       <NavLink to="/films">Video Editing and Films</NavLink>
                     </li>
                 </ul>
-              </li>
+              </li> */}
                   <li className="">
                     <NavLink to="/services">Services</NavLink>
                   </li>

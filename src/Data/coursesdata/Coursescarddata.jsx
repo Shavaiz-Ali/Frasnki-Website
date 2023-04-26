@@ -41,7 +41,7 @@ const Coursescarddata = [
     },
     {
         imgsrc: img4,
-        title : 'geographic information systems',
+        title : 'Geographic Information Systems',
         link : '/gis',     
         icon : 'fas fa-location',
         color: '#47aeff'

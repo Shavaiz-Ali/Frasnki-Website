@@ -17,6 +17,7 @@ import Graphic from "./components/pages/Courses-pages/Graphic";
 import Uiuxdesign from './components/pages/Courses-pages/Uiuxdesign';
 import Amazon from "./components/pages/Courses-pages/Amazon"; 
 import { Switch, Route, Redirect } from 'react-router-dom'
+import Ourteam from "./components/pages/Ourteam";
 
 function App() {
   const mobilenav = () => {
@@ -41,6 +42,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About2} />
+        <Route exact path='/team' component={Ourteam} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/Services' component={Services} />
         <Route exact path='/events' component={Events} />

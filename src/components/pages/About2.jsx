@@ -59,6 +59,7 @@ function About2() {
               }}
               modules={[Autoplay, Pagination, Navigation]}
               className="swiper-container"
+              style={{width:"100%"}}
             >
               <SwiperSlide>
                 <Slider client="1" />
