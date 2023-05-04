@@ -32,7 +32,7 @@ export default function Footer() {
       </div>
 
       <div className="col-lg-3 col-md-6 footer-links">
-        <h4>Our Services</h4>
+        <h4>Popular Services</h4>
         <ul>
           <li><i className="fas fa-angle-right"></i> <NavLink to="/uiux">Web Design</NavLink></li>
           <li><i className="fas fa-angle-right"></i> <NavLink to="/web">Web Development</NavLink></li>
@@ -44,7 +44,7 @@ export default function Footer() {
 
       <div className="col-lg-4 col-md-6 footer-newsletter">
         <h4>Join Our Newsletter</h4>
-        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        <p>Be the first to khow about new events and much more.</p>
         <form action="" method="post">
           <input type="email" name="email"/><input type="submit" value="Subscribe"/>
         </form>

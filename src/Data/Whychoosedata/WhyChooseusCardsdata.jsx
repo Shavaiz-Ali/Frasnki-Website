@@ -1,15 +1,13 @@
 
 const WhychooseusCardsdata = [
     {
-        title : 'Scalable Approach',
-        descripton : ` we create, curate, design, produce, innovate, access, and repeat.At Franski Enterprise,
-         we cultivate our communitythrough social entrepreneurship`,
+        title : 'Our Mission',
+        descripton : ` We are here to decentralize connectivity, to become an indispensable company by offering and promoting e-learning and sponsor millions of teenagers to grow financially`,
         icon : 'fas fa-receipt'
     },
     {
-        title : 'Quality Work',
-        descripton : `We Are a Community of Entrepreneurs, aiming to integrate  Financial Education,
-        Sustainable Development, and Web 3.0.`,
+        title : 'Our Vision',
+        descripton : `To use our company insights and domain experience to reduce unemployment, create economic Opportunity, Provide Innovative, High quality, and construct the most magnificent Software development and Web development services to promote local markets into the Digital world `,
         icon : 'fas fa-cube'
     },
     {

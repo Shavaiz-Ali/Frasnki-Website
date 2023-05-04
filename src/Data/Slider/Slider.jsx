@@ -1,6 +1,5 @@
 // import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import data from "./Sliderdata";
-
  const Slider = ({client}) => {
   const sections = data.filter((item) => item.client === client)[0];  
   return (

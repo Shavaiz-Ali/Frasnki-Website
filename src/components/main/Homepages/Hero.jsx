@@ -22,8 +22,7 @@ export default function Hero() {
             Leading Tomorrow
           </h1>
           <h2>
-            An Inspiring Venture To design, innovate, And <br /> Implement your
-            success
+          Furnishing IT Services to next <br /> Generation
           </h2>
           <NavLink to="/services" className="btn-get-started">
             Get Started

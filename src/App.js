@@ -16,8 +16,14 @@ import Films from "./components/pages/Courses-pages/Films";
 import Graphic from "./components/pages/Courses-pages/Graphic";
 import Uiuxdesign from './components/pages/Courses-pages/Uiuxdesign';
 import Amazon from "./components/pages/Courses-pages/Amazon"; 
-import { Switch, Route, Redirect } from 'react-router-dom'
+import Finance from "./components/pages/Courses-pages/Finance"; 
 import Ourteam from "./components/pages/Ourteam";
+import Animations from "./components/pages/Courses-pages/Animations";
+import Telemarketing from "./components/pages/Courses-pages/Telemarketing";
+import Marketing from "./components/pages/Courses-pages/Marketing";
+import Entrepreneur from "./components/pages/Courses-pages/Entrepreneur";
+import Trading from "./components/pages/Courses-pages/Trading";
+import { Switch, Route, Redirect } from 'react-router-dom'
 
 function App() {
   const mobilenav = () => {
@@ -51,7 +57,14 @@ function App() {
         <Route exact path='/gis' component={Gis} />
         <Route exact path='/films' component={Films} />
         <Route exact path='/graphic' component={Graphic} />
+        <Route exact path='/Animations' component={Animations} />
         <Route exact path='/uiux' component={Uiuxdesign} />
+        <Route exact path='/finance' component={Finance} />
+        <Route exact path='/Telemarketing' component={Telemarketing} />
+        <Route exact path='/marketing' component={Marketing} />
+        <Route exact path='/entrepreneur' component={Entrepreneur} />
+        <Route exact path='/trading' component={Trading} />
+        <Route exact path='/amazon' component={Amazon} />
         <Route exact path='/amazon' component={Amazon} />
         <Redirect to='/' />
       </Switch>

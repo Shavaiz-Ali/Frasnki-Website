@@ -6,7 +6,7 @@ import data from "./Coursedetaildata";
   return (
     <>
           {/* <!-- ======= Breadcrumbs ======= --> */}
-          <div className="breadcrumbs" data-aos="fade-in">
+          <div className="breadcrumbs">
             <div className="container">
               <h2>{sections.title}</h2>
               <p>
@@ -17,7 +17,7 @@ import data from "./Coursedetaildata";
           {/* <!-- End Breadcrumbs --> */}
           {/* <!-- ======= Cource Details Section ======= --> */}
           <section id="course-details" className="course-details">
-            <div className="container" val-aos="fade-up">
+            <div className="container">
               <div className="row">
                 <div className="col-lg-8 ">
                   <img

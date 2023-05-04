@@ -5,7 +5,7 @@ function Amazon() {
   return (
     <>
         {/* getting data for amazon section from coursesdeetail  */}
-        <Coursesdetail component="Amazon"/>
+        <Coursesdetail component="E-Commerce"/>
     </>
   )
 }

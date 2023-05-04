@@ -1,26 +1,49 @@
-import React from 'react'
+import React from "react";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
-function Team(props) {
+import Teamdata from "./Team-data";
+function Team({ member }) {
+  const members = Teamdata.filter((item) => item.member === member)[0];
   return (
-      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-        <div class="member">
-            <div class="member-img">
-                <img src={props.imgsrc} class={props.imgsrc} alt="" className='w-100'/>
-                <div class="social">
-                    <NavLink to=""><i class="fab fa-twitter"></i></NavLink>
-                    <NavLink to=""><i class="fab fa-facebook"></i></NavLink>
-                    <NavLink to=""><i class="fab fa-instagram"></i></NavLink>
-                    <NavLink to=""><i class="fab fa-linkedin"></i></NavLink>
-                </div>
+    <div className="team-slider swiper">
+      <div className="swiper-wrapper">
+        <div className="swiper-slide">
+          <div className="team-wrap">
+            <div className="team-item">
+              <img
+                src={members.imgsrc}
+                className="team-img"
+                alt=""
+                style={{ background: "#c5c8cb" }}
+              />
+              <h3>{members.name}</h3>
+              <h4>{members.title}</h4>
+              <p>
+                <i className="fas fa-quote-left quote-icon-left"></i>
+                {members.description}
+                <i className="fas fa-quote-right quote-icon-right"></i>
+              </p>
+              <div className="social d-flex">
+                <NavLink to={members.link}>
+                  <span className="fab fa-twitter me-2"></span>
+                </NavLink>
+                <NavLink to={members.link}>
+                  <span className="fab fa-facebook-f me-2"></span>
+                </NavLink>
+                <NavLink to={members.link}>
+                  <span className="fab fa-instagram me-2"></span>
+                </NavLink>
+                <NavLink to={members.link}>
+                  <span className="fab fa-linkedin-in me-2"></span>
+                </NavLink>
+              </div>
             </div>
-            <div class="member-info">
-                <h4>{props.name}</h4>
-                <span>{props.title}r</span>
-                <p>{props.description}</p>
-            </div>
+          </div>
         </div>
-        </div>
-  )
+        {/* <!-- End testimonial item --> */}
+      </div>
+      <div className="swiper-pagination"></div>
+    </div>
+  );
 }
 
-export default Team
+export default Team;

@@ -28,7 +28,7 @@ const Coursescarddata = [
     {
         imgsrc: img2,
         title : '2D/3D Designing',
-        link : '/Graphic',     
+        link : '/Animations',     
         icon : 'fas fa-cubes',
         color: '#e80368'
     },
@@ -63,35 +63,35 @@ const Coursescarddata = [
     {
         imgsrc: img7,
         title : 'Accounts And Finance',
-        link: '/films',     
+        link: '/finance',     
         icon : 'fas fa-book',
         color: '#4233ff'
     },
     {
         imgsrc: img8,
         title : 'Telemarketing',
-        link: '/films',     
+        link: '/telemarketing',     
         icon : 'fas fa-headphones',
         color: '#9A208C'
     },
     {
         imgsrc: img9,
         title : 'Digital Marketing(SEO, Market Research)',
-        link: '/films',     
+        link: '/marketing',     
         icon : 'fas fa-magnifying-glass-chart',
         color: '#245953'
     },
     {
         imgsrc: img10,
         title : 'Enterpreneurship',
-        link: '/films',     
+        link: '/entrepreneur',     
         icon : 'fas fa-people-pulling',
         color: '#4233ff'
     },
     {
         imgsrc: img11,
         title : 'Stock Trading',
-        link: '/films',     
+        link: '/trading',     
         icon : 'fas fa-chart-line',
         color: '#b20969'
     }

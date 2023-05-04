@@ -1,13 +1,13 @@
-import React, {useEffect} from "react";
-import Count from './Count'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import '../mainCSS/About.css'
-import video from '../../../Assets/video/abvideo.mp4'
+import React, { useEffect } from "react";
+import Count from "./Count";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "../mainCSS/About.css";
+import video from "../../../Assets/video/abvideo.mp4";
 export default function About() {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
   return (
     <>
       {/* <!-- ======= About Section ======= --> */}
@@ -21,7 +21,7 @@ export default function About() {
             >
               {/* <img src={imgabout} className="img-fluid" alt="" /> */}
               <video controls>
-                <source  src={video} />
+                <source src={video} />
               </video>
             </div>
             <div className="col-lg-6 pt-lg-4 pt-lg-0 order-2 order-lg-1 content">
@@ -30,26 +30,22 @@ export default function About() {
                 <strong>Franski Enterprises Private Limited</strong>
               </p>
               <ul>
-                <li>
-                  <i className="fas fa-circle-check"></i>Franski Enterprise is a
-                  Community of Web 3.0 Developers, Day-Traders, NFT Artists,
-                  Business Consultants, Marketers, Lawyers and Accountants.
-                </li>
-                <li>
-                  <i className="fas fa-circle-check"></i> At Franski Enterprise,
-                  we cultivate our community through social entrepreneurship; we
-                  create, curate, design, produce, innovate, access, and repeat
-                </li>
-                <li>
-                  <i className="fas fa-circle-check"></i> Franski Enterprise
-                  brings in sustainable development, financial education and
-                  vocational training under the same umbrella.
-                </li>
-                <li>
-                  <i className="fas fa-circle-check"></i> Departments Our
-                  Services include, but is not limited to Web 3.0, De-Fi,
-                  Blockchain, Smart Contracts, and NFTs. Stay Tuned".
-                </li>
+                <p>
+                  At the Franski enterprise, we are populated by young, weird,
+                  dynamic and dedicated minds, who are exhilarated about solving
+                  business problems, we upheaval to match your needs as we say
+                  we are considering the consequences of complex business
+                  problems and unemployment, but we actually working to satisfy
+                  our clients’ needs. Our skilled professionals along with the
+                  “let to do it” attitude of brand new talent is persistently
+                  squeezing the horizons our values of coherence, services,
+                  kindliness, growth and continuous learning, increasing
+                  competence grown our behavior all our stakeholders and
+                  clients. We will work with you to assure your customer
+                  relationships are of the highest quality. Our experienced
+                  professional onshore and offshore feature acknowledge you to
+                  emphasis on the business of making your venture a success
+                </p>
               </ul>
               <p>
                 "IN SHORT" We are a Community of Entrepreneurs, aiming to
