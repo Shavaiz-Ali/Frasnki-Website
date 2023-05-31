@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "../../Data/Slider/Slider";
+import Slider from "../../Data/Testimonials-Data/Slider";
 import About from "../main/Homepages/About";
 import "./pagesCSS/About2.css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -40,7 +40,6 @@ function About2() {
               spaceBetween={30}
               autoplay={{
                 delay: 2500,
-                // disableOnInteraction: false,
               }}
               pagination={{
                 clickable: true,
@@ -69,9 +68,6 @@ function About2() {
               </SwiperSlide>
               <SwiperSlide>
                 <Slider client="3" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <Slider client="4" />
               </SwiperSlide>
             </Swiper>
           }

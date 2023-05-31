@@ -21,7 +21,13 @@ const Coursedetaildata = [
     seats: "30",
     Schedule: "5.00 pm - 7.00 pm",
     destitle: "More About Web Development",
-    description: `Franski enterprises have always been at the leading edge for assisting our clients to stick out among the challenger. Our enterprise has command in creating quantifiable custom websites by using the new brand technologies. Our team of Band Experts understands the importance of captivating the target audience. As a new brand web development company, we offer highly competitive and great web services with the best price deal rates.`,
+    description: `
+    Web development is the process of creating and maintaining websites. It involves writing the code that powers the website and designing the website's look and feel. Web developers use a variety of programming languages and technologies, including HTML, CSS, and JavaScript. They also use content management systems (CMS) to make it easier to manage the content of a website.
+    
+    Web development is a rapidly growing field, and there is a high demand for skilled web developers. If you are interested in a career in web development, there are many resources available to help you get started. You can learn the basics of web development online or at a coding bootcamp. Once you have the basic skills, you can start building your portfolio and applying for jobs.
+    
+    Web development is a challenging but rewarding career. If you are creative and have a passion for technology, then web development may be the right career for you.
+    `,
     Button: "Get Enroll",
   },
   {
@@ -55,7 +61,8 @@ const Coursedetaildata = [
     description: `Do you want to acquire all the services and techniques you want to create extraordinary designs? Do you want to understand the procedure of creating logos and branding design? Are you scared of learning Photoshop, Illustrator, or InDesign and need to understand through practical real-time projects? Then Franski enterprise is the best answer!
     You will broadly assess Typography, layout, color theory, and composition, in what way to use photos in design, photo designing and editing, and publication layout design, branding, and logo design.
     You will also learn the fundamentals of Adobe Photoshop, Illustrator, and InDesign and do projects with real-time tenders. Each designer wants to know and major in these programs and our full graphic designing course will make sure you know the crucial tools to command through remarkable projects.
-    In our Adobe Photoshop, we will analyze photo editing and operation techniques like how to change objects out, change the color on objects, and the liquefy instrument and we will produce a captivating YouTube thumbnail with our freshly learned Photoshop services as well as a whole book cover design project.`    
+    In our Adobe Photoshop, we will analyze photo editing and operation techniques like how to change objects out, change the color on objects, and the liquefy instrument and we will produce a captivating YouTube thumbnail with our freshly learned Photoshop services as well as a whole book cover design project.`,
+    Button: 'Get Enroll' 
   },
   {
     component: "2d3ddesign",
@@ -152,8 +159,11 @@ const Coursedetaildata = [
     seats: "30",
     Schedule: "5.00 pm - 7.00 pm",
     destitle: "More About Telemarketing",
-    description: `We are progressing towards a worldwide economy quickly. As a result of the increasing speed of the digitized world, more and more administrations are going for outsourced call centers. The central purpose is to deliver outstanding customer service along with assembly energetic and professional affairs with the customers. Gradually and progressively, Pakistan has also linked this exceptional.
-    Telemarketing is a very strict job, occasionally you are dealing with the numbers to interact while sometimes you have to beg for them. While that being believed, this kind of job comes with its risks, the national do not call agency protects the customers who have severely forbidden from telemarketers communicating them.
+    description: `Telemarketing is a direct marketing method that involves contacting customers or potential customers over the phone. Telemarketers use a variety of scripts and techniques to sell products or services, or to gather information. Telemarketing can be a very effective way to reach a large number of people, but it can also be intrusive and annoying.
+
+    There are a number of laws and regulations governing telemarketing, such as the Telephone Consumer Protection Act (TCPA). The TCPA prohibits telemarketers from making unsolicited calls to cell phones, and it requires them to identify themselves and the company they are representing.
+    
+    Telemarketing can be a very effective way to reach a large number of people, but it is important to be aware of the laws and regulations governing telemarketing. If you are considering using telemarketing, it is important to do your research and make sure that you are in compliance with the law.
     `,
     Button: "Get Enroll",
   },
@@ -167,7 +177,13 @@ const Coursedetaildata = [
     seats: "30",
     Schedule: "5.00 pm - 7.00 pm",
     destitle: "More About Digital Marketing",
-    description: `Broadly connections happen on the first page of Google and other search engines. If your company or brand name is not one-off the top listed, then it is undiscovered to your possible buyers. We at Franski enterprise can assist you to recognize the right keyword that your potential buyers search for and help you get your brand to acquire top positions in the search engine..`,
+    description: `Digital marketing is the use of digital channels to promote products and services. It includes a wide range of activities, such as search engine optimization (SEO), social media marketing, email marketing, and content marketing.
+
+    SEO is the process of improving the ranking of a website in search engine results pages (SERPs). This can be done by optimizing the website's content, structure, and code.
+    
+    Market research is the process of gathering and analyzing information about a target market. This information can be used to develop marketing strategies that are more likely to be successful.
+    
+    Digital marketing can be a very effective way to reach a large audience and generate leads. However, it is important to have a well-defined strategy and to use the right tools and techniques.`,
     Button: "Get Enroll",
   },
   {

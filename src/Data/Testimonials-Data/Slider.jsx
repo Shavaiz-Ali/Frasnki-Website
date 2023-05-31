@@ -6,7 +6,6 @@ import data from "./Sliderdata";
     <>
     <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div className="swiper-wrapper">
-
             <div className="swiper-slide">
               <div className="testimonial-wrap">
                 <div className="testimonial-item">
@@ -14,9 +13,9 @@ import data from "./Sliderdata";
                   <h3>{sections.name}</h3>
                   <h4>{sections.title}</h4>
                   <p>
-                    <i className="fas fa-quote-left quote-icon-left"></i>
+                    <span className="fas fa-quote-left quote-icon-left"></span>
                     {sections.descripton}
-                    <i className="fas fa-quote-right quote-icon-right"></i>
+                    <span className="fas fa-quote-right quote-icon-right"></span>
                   </p>
                 </div>
               </div>

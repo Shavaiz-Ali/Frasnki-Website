@@ -14,11 +14,7 @@ function Ourteam() {
         <div className="container">
           <h2>Meet Our Team</h2>
           <p>
-            Franski Enterprise is a Community of Web 3.0 Developers,
-            Day-Traders, NFT Artists, Business Consultants, Marketers, Lawyers
-            and Accountants. <br />
-            At Franski Enterprise, we cultivate our community through social
-            entrepreneurship;
+          Our team is highly motivated and dedicated and has an empathy for integrity and customer service and we value the privileges and opportunities of our living humanity. Our team will be energetic, exercising, originality in undertaking our objectives, acting on circumstances and prospects, empirically than be acted upon. 
           </p>
         </div>
       </div>

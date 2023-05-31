@@ -1,13 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Count from "./Count";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import "../mainCSS/About.css";
 import video from "../../../Assets/video/abvideo.mp4";
 export default function About() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       {/* <!-- ======= About Section ======= --> */}

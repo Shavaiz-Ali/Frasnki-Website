@@ -1,79 +1,77 @@
 import React from 'react'
-import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+// import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import '../mainCSS/Footer.css'
 export default function Footer() {
   return (
     <>
-<footer id="footer">
-<div className="footer-top">
-  <div className="container">
-    <div className="row">
+{/* <!-- ======= Footer ======= --> */}
+  <footer id="footer">
+    <div className="footer-top">
+      <div className="container">
+        <div className="row">
 
-      <div className="col-lg-3 col-md-6 footer-contact">
-        <h3>Franski</h3>
-        <p>
-        Nadir Chowk <br/>
-        Zulfiqarabad, Gilgit<br/>
-        Gilgit-Baltistan 15500 <br/><br/>
-          <strong>Phone:</strong> 0349 5728397<br/>
-          <strong>Email:</strong>marcom@franskienterprise.com<br/>
-        </p>
+          <div className="col-lg-4 col-md-6">
+            <div className="footer-info">
+              <h3>Franski Enterprises</h3>
+              <p className="pb-3">Franski Enterprise is a Community of Web 3.0 Developers, Day-Traders, NFT Artists, Business Consultants, Marketers, Lawyers and Accountants</p>
+              <p>
+                Nadir Chowk<br/>
+                Zulfiqarabad, Gilgit<br/><br/>
+                <strong>Phone:</strong> 03495728397<br/>
+                <strong>Email:</strong> marcom@franskienterprise.com<br/>
+              </p>
+              <div className="social-links mt-3">
+                <a href="/" className="twitter"><i className="fab fa-twitter"></i></a>
+                <a href="/" className="facebook"><i className="fab fa-facebook"></i></a>
+                <a href="/" className="instagram"><i className="fab fa-instagram"></i></a>
+                <a href="/" className="google-plus"><i className="fab fa-skype"></i></a>
+                <a href="/" className="linkedin"><i className="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">About us</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Services</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Blog</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Terms of service</a></li>
+            </ul>
+          </div>
+
+          <div className="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Web Design</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Web Development</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Product Management</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Marketing</a></li>
+              <li><i className="bx bx-chevron-right"></i> <a href="/">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div className="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Be the first to khow about the new events and more</p>
+            <form action="" method="post">
+              <input type="email" name="email"/><input type="submit" value="Subscribe"/>
+            </form>
+
+          </div>
+
+        </div>
       </div>
-
-      <div className="col-lg-2 col-md-6 footer-links">
-        <h4>Useful Links</h4>
-        <ul>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/">Home</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/about">About us</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/services">Services</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/">Terms of service</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/">Privacy policy</NavLink></li>
-        </ul>
-      </div>
-
-      <div className="col-lg-3 col-md-6 footer-links">
-        <h4>Popular Services</h4>
-        <ul>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/uiux">Web Design</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/web">Web Development</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/films">Video Editing And Films</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/amazon">Marketing</NavLink></li>
-          <li><i className="fas fa-angle-right"></i> <NavLink to="/graphic">Graphic Design</NavLink></li>
-        </ul>
-      </div>
-
-      <div className="col-lg-4 col-md-6 footer-newsletter">
-        <h4>Join Our Newsletter</h4>
-        <p>Be the first to khow about new events and much more.</p>
-        <form action="" method="post">
-          <input type="email" name="email"/><input type="submit" value="Subscribe"/>
-        </form>
-      </div>
-
     </div>
-  </div>
-</div>
 
-<div className="container d-md-flex py-4">
-
-  <div className="me-md-auto text-center text-md-start">
-    <div className="copyright">
-      &copy; Copyright <strong><span>Franski Enterprises PVT LMT</span></strong>. All Rights Reserved
+    <div className="container">
+      <div className="copyright">
+        &copy; Copyright <strong><span>FRANSKI ENTERPRISES PVT LMT</span></strong>. All Rights Reserved 2023
+      </div>
     </div>
-    <div className="credits">
-      Designed by <NavLink to="https://bootstrapmade.com/">Team Development</NavLink>
-    </div>
-  </div>
-  <div className="social-links text-center text-md-right pt-3 pt-md-0">
-    <NavLink to="/" className="twitter"><i className="fab fa-twitter"></i></NavLink>
-    <NavLink to="/" className="facebook"><i className="fab fa-facebook-f"></i></NavLink>
-    <NavLink to="/" className="instagram"><i className="fab fa-instagram"></i></NavLink>
-    <NavLink to="/" className="google-plus"><i className="fab fa-skype"></i></NavLink>
-    <NavLink to="/" className="linkedin"><i className="fab fa-linkedin-in"></i></NavLink>
-  </div>
-</div>
-</footer>
-{/* <!-- End Footer --><!-- ======= Footer ======= --> */}
+  </footer>
+  {/* <!-- End Footer --> */}
     </>
   )
 }

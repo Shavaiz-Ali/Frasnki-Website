@@ -8,7 +8,7 @@ function Contact() {
     <div className="breadcrumbs">
       <div className="container">
         <h2>Contact</h2>
-        <p> Don’t Hesitate to Reach Us, We are Aailable 24/7</p>
+        <p>If you need help, please don't hesitate to contact us. We're here to help you succeed.</p>
       </div>
     </div>
     {/* <!-- End Breadcrumbs --> */}

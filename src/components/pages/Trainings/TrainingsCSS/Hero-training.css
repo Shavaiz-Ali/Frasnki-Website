@@ -1,0 +1,10 @@
+
+.vision-right .vision-heading span h1 {
+    font-weight: 600;
+    font-family: poppins;
+}
+.vision-right .vision-text p,li{
+    font-size: 1.2rem;
+    font-family: poppins;
+    color: black;
+}

@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features {
+/* .features {
   padding-top: 0px;
 }
 
@@ -38,11 +38,11 @@
 
 .features .icon-box:hover h3 a {
   color: #5fcf80;
-}
+} */
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
+/* section {
   padding: 60px 0;
   overflow: hidden;
 }
@@ -53,9 +53,9 @@ section {
 
 .section-title {
   padding-bottom: 40px;
-}
+} */
 
-.section-title h2 {
+/* .section-title h2 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -74,14 +74,69 @@ section {
   display: inline-block;
   background: #9ae1af;
   margin: 4px 10px;
-}
+} */
 
-.section-title p {
+/* .section-title p {
   margin: 0;
   margin: 0;
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #37423b;
+  color: #079bdf;
+} */
+
+.card {
+  width: 250px;
+  height: 200px;
+  background: white;
+  transition: all 0.4s;
+  border: 0.1px solid rgba(0, 0, 0, 0.126);
+  border-radius:8px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.card:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.2);
+  background: white;
+}
+
+.front {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.card:hover .front {
+  height: 0px;
+  opacity: 0;
+}
+
+.back {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.card:hover .back {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
 }

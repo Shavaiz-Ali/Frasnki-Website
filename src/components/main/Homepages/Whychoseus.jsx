@@ -22,14 +22,14 @@ export default function Whychoseus() {
                   curate, design, produce, innovate, access, and repeat.
                 </p>
                 <div className="text-center">
-                  <NavLink to="https://www.linkedin.com/company/franski-enterprise-smc-pvt/?originalSubdomain=pk" className="more-btn">
+                  <NavLink to="/about" className="more-btn">
                     Learn More <i className="bx bx-chevron-right"></i>
                   </NavLink>
                 </div>
               </div>
             </div>
             <div className="col-lg-8 col-12">
-              <div className="icon-boxes d-md-flex  justify-content-between">
+              <div className="icon-boxes d-md-flex justify-content-between lg-gap-0 gap-1">
                 {Cardsdata.map((val, ind) => {
                   return (
                     <Card
