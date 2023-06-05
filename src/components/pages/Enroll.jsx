@@ -29,7 +29,7 @@ function Enroll() {
     }
   };
 
-  const handleDepositeAmountChange = (e) => {
+  const handleonChange = (e) => {
     let value = e.target.value;
     let name = e.target.name;
     if (name === "t_input") {
@@ -78,10 +78,10 @@ function Enroll() {
                       <input
                         name="t_input"
                         type="text"
-                        className="form-control parsley-error"
+                        className="form-control"
                         value={t_input}
                         onChange={(e) => {
-                          handleDepositeAmountChange(e);
+                          handleonChange(e);
                         }}
                       />
                       {button === true ? (
@@ -108,7 +108,7 @@ function Enroll() {
                         className="form-control parsley-error "
                         value={t_input}
                         onChange={(e) => {
-                          handleDepositeAmountChange(e);
+                          handleonChange(e);
                         }}
                       />
                       {button === true ? (
@@ -136,10 +136,10 @@ function Enroll() {
                       <input
                         name="email"
                         type="email"
-                        className="form-control parsley-error"
+                        className="form-control"
                         value={email}
                         onChange={(e) => {
-                          handleDepositeAmountChange(e);
+                          handleonChange(e);
                         }}
                       />
                       {button === true ? (
@@ -163,10 +163,10 @@ function Enroll() {
                       <input
                         name="email"
                         type="Number"
-                        className="form-control parsley-error"
+                        className="form-control"
                         value={email}
                         onChange={(e) => {
-                          handleDepositeAmountChange(e);
+                          handleonChange(e);
                         }}
                       />
                       {button === true ? (
@@ -194,10 +194,10 @@ function Enroll() {
                       <input
                         name="email"
                         type="number"
-                        className="form-control parsley-error"
+                        className="form-control"
                         value={email}
                         onChange={(e) => {
-                          handleDepositeAmountChange(e);
+                          handleonChange(e);
                         }}
                       />
                       {button === true ? (
@@ -258,13 +258,13 @@ function Enroll() {
                 <div className="form-group">
                   <label className="form-label">Gender</label>
                   <br />
-                  <label className="fancy-radio parsley-error">
+                  <label className="fancy-radio">
                     <input
                       name="radio_btn"
                       type="radio"
                       value={radio_btn}
                       onChange={(e) => {
-                        handleDepositeAmountChange(e);
+                        handleonChange(e);
                       }}
                     />
                     <span className="mx-2">Male</span>
@@ -275,7 +275,7 @@ function Enroll() {
                       type="radio"
                       value={radio_btn}
                       onChange={(e) => {
-                        handleDepositeAmountChange(e);
+                        handleonChange(e);
                       }}
                     />
                     <span className="mx-2">Female</span>

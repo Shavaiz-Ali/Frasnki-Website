@@ -1,28 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.programsheading h1{
+.programsheading h1 {
     font-size: 2rem;
     font-weight: 700;
 }
-.programsheading p{
+
+.programsheading p {
     font-size: 1.5rem;
-    color:black;
+    color: rgb(96, 96, 96);
 }
-.card{
+
+.container {
+    display: flex;
+}
+
+.card {
     width: 90%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 0.1px solid rgba(0, 0, 0, 0.163);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    flex: 1 1 150px;
     margin-top: 1.4rem;
 
 }
-.card .cardbody p{
-    font-size: 1.2rem;
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.card .cardbody p {
+    font-size: 1rem;
     font-weight: 600;
-    font-family:'Poppins', sans-serif;
+    /* font-family:sans-serif; */
     color: black;
     text-align: center;
     padding: 10px;
+}
+
+@media (max-width:760px) {
+    .card img {
+        width: 100%;
+        height: auto;
+    }
 }

@@ -20,7 +20,7 @@
 /**
     * Get Startet Button 
     */
-#header .get-started-btn {
+#header .getstartedbtn {
   background: #079bdf;
   color: white;
   border-radius: 50px;
@@ -32,13 +32,13 @@
   display: inline-block;
 }
 
-#header .get-started-btn:hover {
+#header .getstartedbtn:hover {
   background: #24aeee;
   color: black;
 }
 
 @media (max-width: 768px) {
-  #header .get-started-btn {
+  #header .getstartedbtn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
   }
@@ -75,7 +75,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: black;
   white-space: nowrap;
@@ -96,7 +96,7 @@
   color: #079bdf;
 }
 
-.navbar .dropdown ul {
+/* .navbar .dropdown ul {
   display: block;
   position: absolute;
   left: 30px;
@@ -160,13 +160,13 @@
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
-}
+} */
 
 /**
   * Mobile Navigation 
   */
-.mobile-nav-toggle {
-  color: white;
+.mobilenavtoggle {
+  color: black;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -174,12 +174,9 @@
   transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
-  color: black;
-}
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
+@media (max-width: 1050px) {
+  .mobilenavtoggle {
     display: block;
   }
 
@@ -188,7 +185,7 @@
   }
 }
 
-.navbar-mobile {
+.navbar_mobile {
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -201,13 +198,13 @@
   color: 'black'
 }
 
-.navbar-mobile .mobile-nav-toggle {
+.navbar_mobile .mobilenavtoggle {
   position: absolute;
   top: 15px;
   right: 15px;
 }
 
-.navbar-mobile ul {
+.navbar_mobile ul {
   display: block;
   position: absolute;
   top: 55px;
@@ -221,25 +218,25 @@
   transition: 0.3s;
 }
 
-.navbar-mobile a,
-.navbar-mobile a:focus {
+.navbar_mobile a,
+.navbar_mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
   color: white;
 }
 
-.navbar-mobile NavLink:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>NavLink {
+.navbar_mobile NavLink:hover,
+.navbar_mobile .active,
+.navbar_mobile li:hover>NavLink {
   color: #079bdf;
 }
 
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.navbar_mobile .getstarted,
+.navbar_mobile .getstarted:focus {
   margin: 15px;
 }
 
-.navbar-mobile .dropdown ul {
+.navbar_mobile .dropdown ul {
   position: static;
   display: none;
   margin: 10px 20px;
@@ -251,21 +248,21 @@
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
-.navbar-mobile .dropdown ul li {
+.navbar_mobile .dropdown ul li {
   min-width: 200px;
 }
 
-.navbar-mobile .dropdown ul a {
+.navbar_mobile .dropdown ul a {
   padding: 10px 20px;
 }
 
-.navbar-mobile .dropdown ul a i {
+.navbar_mobile .dropdown ul a i {
   font-size: 12px;
 }
 
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar_mobile .dropdown ul a:hover,
+.navbar_mobile .dropdown ul .active:hover,
+.navbar_mobile .dropdown ul li:hover>a {
   color: #079bdf;
 }
 
@@ -278,7 +275,7 @@
 }
 
 @media (min-width: 992px) {
-  .navbar-mobile {
+  .navbar_mobile {
     display: none;
   }
 

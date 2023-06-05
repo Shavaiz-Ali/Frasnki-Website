@@ -1,12 +1,12 @@
 import React from "react";
 import Count from "./Count";
-import "../mainCSS/About.css";
+import styles from "../mainCSS/About.module.css";
 import video from "../../../Assets/video/abvideo.mp4";
 export default function About() {
   return (
     <>
       {/* <!-- ======= About Section ======= --> */}
-      <section id="about" className="about mt-5 p-lg-5 p-0">
+      <section id={`${styles.about}`} className="about mt-5 p-lg-5 p-0">
         <div className="container" data-aos="fade-in">
           <div className="row">
             <div
@@ -19,7 +19,7 @@ export default function About() {
                 <source src={video} />
               </video>
             </div>
-            <div className="col-lg-6 pt-lg-4 pt-lg-0 order-2 order-lg-1 content">
+            <div id={`${styles.content}`} className="col-lg-6 pt-lg-4 pt-lg-0 order-2 order-lg-1">
               <h3>About Us</h3>
               <p className="bold">
                 <strong>Franski Enterprises Private Limited</strong>

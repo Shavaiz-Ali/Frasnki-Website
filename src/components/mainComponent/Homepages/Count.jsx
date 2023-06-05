@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-import "../mainCSS/Count.css";
+import styles from "../mainCSS/Count.module.css";
 export default function Count() {
   const [Counter, setCounter] = useState(false);
   return (
@@ -14,12 +14,12 @@ export default function Count() {
         data-aos="fade-in"
       >
         <section
-          id="counts"
+          id={`${styles.counts}`}
           className="counts mt-5 section-bg"
           data-aos="fade-in"
         >
           <div className="container">
-            <div className="row counters">
+            <div className={`row ${styles.counters}`}>
               <div className="col-lg-3 col-6 d-flex justify-content-center align-items-center flex-column text-center">
                 <span className="purecounter d-flex justify-content-center align-items-center">
                   {Counter && (

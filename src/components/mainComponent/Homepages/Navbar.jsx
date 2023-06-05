@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import franskilogo from "../../../Assets/images/logos/logo1.png";
-import "../mainCSS/Navbar.css";
+import styles from "../mainCSS/Navbar.module.css";
 
 export default function Navbar() {
+  // left to right scroll animation
   const [scrolling, setScrolling] = useState(false);
   const [animationDuration, setAnimationDuration] = useState(0);
-  const [navbarOpen, setNavbarOpen] = useState(false);
   useEffect(() => {
     const calculateDuration = () => {
       const loadTime =
@@ -22,7 +22,8 @@ export default function Navbar() {
       window.removeEventListener("load", calculateDuration);
     };
   }, []);
-
+  // making navbar responsive on mobile screens
+  const [navbarOpen, setNavbarOpen] = useState(false);
   const handleSearch = () => {
     setNavbarOpen(false); // Close the navbar when a link is clicked
     setScrolling(true);
@@ -53,12 +54,11 @@ export default function Navbar() {
 
   const toggleNavbar = () => {
     setNavbarOpen(!navbarOpen);
-
   };
   const getNavbarIcon = () => {
     return navbarOpen ? "fa-times  text-white" : "fa-bars";
   };
-  
+
   const navbarIcon = getNavbarIcon();
   return (
     <>
@@ -72,14 +72,19 @@ export default function Navbar() {
         </div>
       </div>
       {/* <!-- ======= Header ======= --> */}
-      <header id="header" className="">
+      <header id={`${styles.header}`} className="">
         <div className="container-sm d-flex align-items-center justify-content-between">
-          <div className="logo">
+          <div className={`${styles.logo}`}>
             <NavLink to="/">
               <img src={franskilogo} alt={franskilogo} />
             </NavLink>
           </div>
-          <nav id="navbar" className={`d-flex navbar  ${navbarOpen ? "navbar-mobile" : ""}`}>
+          <nav
+            id={`navbar`}
+            className={`d-flex ${styles.navbar}  ${
+              navbarOpen ? styles.navbar_mobile : ""
+            }`}
+          >
             <ul className="navbar-items">
               <li>
                 <NavLink exact to="/services" onClick={handleSearch}>
@@ -93,7 +98,7 @@ export default function Navbar() {
               </li>
               <li>
                 <NavLink to="/training" onClick={handleSearch}>
-                 Trainings
+                  Trainings
                 </NavLink>
               </li>
               <li>
@@ -102,24 +107,32 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li className="">
-                <NavLink to="/blog" onClick={handleSearch}>Blog</NavLink>
+                <NavLink to="/blog" onClick={handleSearch}>
+                  Blog
+                </NavLink>
               </li>
               {/* <li className="">
                 <NavLink to="/events" onClick={handleSearch}>Events</NavLink>
               </li> */}
               <li className="">
-                <NavLink to="/contact" onClick={handleSearch}>Contact</NavLink>
+                <NavLink to="/contact" onClick={handleSearch}>
+                  Contact
+                </NavLink>
               </li>
-              <NavLink to="enroll" className="get-started-btn ms-3" onClick={handleSearch}>
+              <NavLink
+                to="enroll"
+                className={`${styles.getstartedbtn} ms-3 `}
+                onClick={handleSearch}
+              >
                 Enroll Now
               </NavLink>
               {/* Rest of the navbar items */}
             </ul>
             <i
-              className={`fas mobile-nav-toggle ${navbarIcon}`}
+              className={`fas ${styles.mobilenavtoggle} ${navbarIcon}`}
               id="navtoggle"
               onClick={toggleNavbar}
-            ></i>
+            >|||</i>
           </nav>
         </div>
       </header>

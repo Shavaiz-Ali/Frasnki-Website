@@ -3,14 +3,13 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 import './Assets/CSS/App.css';
 // ============ importing components ================ //
-import Navbar from "./components/main/Homepages/Navbar";
+import Navbar from "./components/mainComponent/Homepages/Navbar";
 import About2 from './components/pages/About2';
 import Contact from './components/pages/Contact';
-import Services from './components/pages/Services';
+import Services from './components/pages/ourServices';
 import Enroll from "./components/pages/Enroll";
-// import Events from "./components/pages/Events";
-import Footer from "./components/main/Homepages/Footer";
-import Home from "./components/main/Home";
+import Footer from "./components/mainComponent/Homepages/Footer";
+import Home from "./components/mainComponent/Home";
 import Web from "./components/pages/Courses-pages/Web";
 import Gis from "./components/pages/Courses-pages/Gis";
 import Films from "./components/pages/Courses-pages/Films";
@@ -31,7 +30,7 @@ import { Training } from "./components/pages/Trainings/Training";
 function App() {
   const mobilenav = () => {
     let mobileNav = document.getElementById("navbar");
-    mobileNav.classList.toggle("navbar-mobile");
+    mobileNav.classList.toggle("navbar_mobile");
   };
   const [isVisible, setIsVisible] = useState(false);
 

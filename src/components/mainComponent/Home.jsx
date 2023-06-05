@@ -2,7 +2,7 @@ import React from "react";
 import Hero from './Homepages/Hero';
 // import About from './Homepages/About';
 // import Whychooseus from './Homepages/Whychoseus';
-import Courses from './Homepages/Courses';
+import Services from './Homepages/Services';
 import Count from "./Homepages/Count";
 import Products from "./Homepages/Products";
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
       {/* <About /> */}
       <Count />
       {/* <Whychooseus /> */}
-      <Courses />
+      <Services />
       <Products />
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "../../Data/Testimonials-Data/Slider";
-import About from "../main/Homepages/About";
+import About from "../mainComponent/Homepages/About";
 import "./pagesCSS/About2.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";

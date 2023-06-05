@@ -1,8 +1,8 @@
 import React from "react";
-import Courses from "../main/Homepages/Courses";
+import Services from "../mainComponent/Homepages/Services";
 import './pagesCSS/Services.css'
 
-function Services() {
+function ourServices() {
   return (
     <>
       {/* <!-- ======= Breadcrumbs ======= --> */}
@@ -18,10 +18,10 @@ function Services() {
 
       {/* getting services and footer secttion from horm component  */}
       <div className="mt-5">
-      <Courses />
+        <Services />
       </div>
     </>
   );
 }
 
-export default Services;
+export default ourServices;

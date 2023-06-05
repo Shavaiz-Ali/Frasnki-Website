@@ -9,14 +9,14 @@ const Programs = () => {
           <h1>Desired Digital Training Opportunities</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, porro!</p>
         </div>
-        <div className="container">
-          <div className="row">
+        <div className="container d-flex">
+          <div className="row d-flex justify-content-center" style={{justifyContent:'center'}}>
             {Trainingdata.map((value, index) => {
               return (
                 <>
-                  <div className="col-lg-4" key={index}>
-                    <div className={`${styles.card} shadow-md "`}>
-                      <img src={value.imgsrc} className="card-img-top w-100" alt={value.imgsrc}/>
+                  <div className="col-lg-4 col-md-6 col-12" key={index}>
+                    <div className={`${styles.card} shadow-md "`}  style={{margin:'10px auto'}}>
+                      <img src={value.imgsrc} className="card-img-top" alt={value.imgsrc}/>
                       <div className={`${styles.cardbody} card-body`}>
                         <p className="card-text">
                           {value.title}

@@ -1,0 +1,9 @@
+.locations_heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.locations_heading p {
+    font-size: 1.5rem;
+    color: rgb(96, 96, 96);
+}

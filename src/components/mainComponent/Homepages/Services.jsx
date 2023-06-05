@@ -49,7 +49,7 @@ export default function Courses() {
                         >
                           {val.title}
                         </h3>
-                        <p style={{ fontSize: "18px", textAlign: "center" }}>
+                        <p style={{ fontSize: "18px", textAlign: "center", fontWeight:'500' }}>
                           Crafting digital experiences through code for online
                           platforms.
                         </p>
