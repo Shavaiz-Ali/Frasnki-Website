@@ -24,14 +24,40 @@ export default function Hero() {
           style={{
             backgroundImage: `url(${bghero})`,
             backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "top center",
+            backgroundAttachment: "fixed",
             opacity: "0.9",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "0"
+          }}
+        >
+          <div className="container caption" style={{ position: "relative" }}>
+            <h1>
+              Learning Today,
+              <br />
+              Leading Tomorrow
+            </h1>
+            <h2>
+              Furnishing IT Sercices To Next <br /> Generation
+            </h2>
+            <NavLink to="/about" className="btn-get-started">
+              Learn More
+            </NavLink>
+          </div>
+        </SwiperSlide>
+        {/* <SwiperSlide
+          style={{
+            backgroundImage: `url(${bghero})`,
+            backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "top center",
             backgroundAttachment: "fixed",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            padding: "0",
           }}
         >
           <div className="container caption" style={{ position: "relative" }}>
@@ -60,7 +86,6 @@ export default function Hero() {
             alignItems: "center",
           }}
         >
-          {/* <img src={bghero} alt="" className="w-100" style={{height: '100vh', position: 'absolute'}}/> */}
           <div className="container caption" style={{ position: "relative" }}>
             <h1>
               Learning Today,
@@ -74,34 +99,7 @@ export default function Hero() {
               Learn More
             </NavLink>
           </div>
-        </SwiperSlide>
-        <SwiperSlide
-          style={{
-            backgroundImage: `url(${bghero})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "top center",
-            backgroundAttachment: "fixed",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          {/* <img src={bghero} alt="" className="w-100" style={{height: '100vh', position: 'absolute'}}/> */}
-          <div className="container caption" style={{ position: "relative" }}>
-            <h1>
-              Learning Today,
-              <br />
-              Leading Tomorrow
-            </h1>
-            <h2>
-              Furnishing IT Sercices To Next <br /> Generation
-            </h2>
-            <NavLink to="/about" className="btn-get-started">
-              Learn More
-            </NavLink>
-          </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
       {/* <!-- End Hero --> */}
 

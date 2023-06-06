@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import Coursescarddata from "../../../Data/coursesdata/Coursescarddata";
 import styles from '../mainCSS/Services.module.css'
@@ -17,7 +17,7 @@ export default function Courses() {
           >
             {Coursescarddata.map((val, ind) => {
               return (
-                <>
+                <Fragment key={val.id}>
                   <div className="col-xl-3 col-sm-6 mt-4">
                     <div className={`${styles.card} shadow-md`}>
                       <div className={`${styles.front} text-center`}>
@@ -59,7 +59,7 @@ export default function Courses() {
                       </div>
                     </div>
                   </div>
-                </>
+                </Fragment>
               );
             })}
           </div>

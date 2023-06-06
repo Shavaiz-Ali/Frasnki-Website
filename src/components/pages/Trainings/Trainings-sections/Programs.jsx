@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import { Trainingdata } from "../../../../Data/Trainings-Data/Trainingdata";
 import styles from '../TrainingsCSS/Programs.module.css'
 const Programs = () => {
@@ -13,8 +13,8 @@ const Programs = () => {
           <div className="row d-flex justify-content-center" style={{justifyContent:'center'}}>
             {Trainingdata.map((value, index) => {
               return (
-                <>
-                  <div className="col-lg-4 col-md-6 col-12" key={index}>
+                <Fragment key={value.id}>
+                  <div className="col-lg-4 col-md-6 col-12">
                     <div className={`${styles.card} shadow-md "`}  style={{margin:'10px auto'}}>
                       <img src={value.imgsrc} className="card-img-top" alt={value.imgsrc}/>
                       <div className={`${styles.cardbody} card-body`}>
@@ -24,7 +24,7 @@ const Programs = () => {
                       </div>
                     </div>
                   </div>
-                </>
+                </Fragment>
               );
             })}
           </div>
