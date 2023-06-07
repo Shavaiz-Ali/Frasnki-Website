@@ -26,6 +26,7 @@ import Trading from "./components/pages/Courses-pages/Trading";
 import { Switch, Route, Redirect } from 'react-router-dom'
 import Blog from "./components/pages/Blog";
 import { Training } from "./components/pages/Trainings/Training";
+import Products from "./components/pages/ourProducts/Products";
 
 function App() {
   const mobilenav = () => {
@@ -66,6 +67,7 @@ function App() {
         <Route exact path='/Services' component={Services} />
         <Route exact path='/blog' component={Blog} />
         <Route exact path='/training' component={Training} />
+        <Route exact path='/products' component={Products} />
         <Route exact path='/enroll' component={Enroll} />
         <Route exact path='/web' component={Web} />
         <Route exact path='/gis' component={Gis} />

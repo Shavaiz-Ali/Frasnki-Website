@@ -22,7 +22,7 @@ export default function Navbar() {
       window.removeEventListener("load", calculateDuration);
     };
   }, []);
-  // making navbar responsive on mobile screens
+  // making navbar responsive on mobile screens and activating scrolling animation 
   const [navbarOpen, setNavbarOpen] = useState(false);
   const handleSearch = () => {
     setNavbarOpen(false); // Close the navbar when a link is clicked
@@ -40,7 +40,6 @@ export default function Navbar() {
         setNavbarOpen(false);
       }
     };
-
     if (navbarOpen) {
       document.addEventListener("click", handleOutsideClick);
     } else {
@@ -132,7 +131,7 @@ export default function Navbar() {
               className={`fas ${styles.mobilenavtoggle} ${navbarIcon}`}
               id="navtoggle"
               onClick={toggleNavbar}
-            >|||</i>
+            ></i>
           </nav>
         </div>
       </header>
